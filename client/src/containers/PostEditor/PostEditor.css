@@ -1,0 +1,64 @@
+.PostEditorContainer {
+    border: 1px solid rgba(var(--pink-color), 0.4);
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top:80px;
+    height: 400px;
+    color: rgb(var(--pink-color));
+}
+
+.TitleContainer {
+    
+    text-align: center;
+}
+
+.TitleContainer div{
+    margin-top:1%;
+    border:1px solid rgba(var(--pink-color), 0.2);
+    border-radius: 20px;
+    width: 90%;
+    margin:auto;
+    max-height: 20px;
+    overflow: hidden;
+}
+.TitleContainer div{
+    outline:transparent;
+}
+
+.ImageInputContainer{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.ImageURL{
+    display: inline-block;
+    width: 60%;
+    margin: auto;
+    border:1px solid rgba(var(--pink-color), 0.2);
+    border-radius: 20px;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+.ImageURL:focus {
+    outline:transparent;
+}
+
+.ContentContainer h2{
+    text-align: center;
+}
+
+.ContentContainer div{
+    border: 1px solid rgba(var(--pink-color), 0.2);
+    border-radius: 20px;
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    max-height:120px;
+    overflow-y: scroll;
+}
+
+.ContentContainer div:focus {
+    outline-color:transparent;
+}

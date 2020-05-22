@@ -1,0 +1,29 @@
+.Modal {
+    border : 1px solid rgba(var(--pink-color), 0.4);
+    background-color: white;
+    border-radius: 2rem;
+    width: 50%;
+    height:40%;
+    margin: auto;
+    position: fixed;
+    top: 25%;
+    left:25%;
+    z-index:100;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 3fr 4fr 2fr;
+}
+
+.MessageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.ErrorImage{
+    height:3rem;
+    display:inline-block;
+    margin: 1rem auto;
+}

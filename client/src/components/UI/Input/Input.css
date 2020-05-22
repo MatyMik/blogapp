@@ -1,0 +1,12 @@
+.Input{
+    width:100%;
+    background-color: rgba(var(--pink-color), 0.15);
+}
+
+.InputContainer{
+    display: grid;
+    grid-template-columns: 1fr; 
+    width: 80%;
+    margin: 5% auto ;
+    color: rgb(var(--pink-color));
+}
